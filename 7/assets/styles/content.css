@@ -1,0 +1,30 @@
+.content {
+  width: 80vw;
+  height: 100vh;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.content-item {
+  margin-right: 110vh;
+  width: 350px;
+  /* border: 1px solid red; */
+  height: 100%;
+}
+.image-1 {
+  width: 100%;
+  height: 200px;
+}
+.image-1 img {
+  width: 100%;
+  height: 100%;
+}
+.image-2 img {
+  margin-top: 5px;
+  width: 100%;
+  height: 64vh;
+}
+img:hover {
+  transform: scale(1.1);
+}
